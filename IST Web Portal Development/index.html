@@ -1,0 +1,284 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+       <meta charset="utf-8" />
+       <title>INFORMATION SCIENCES & TECHNOLOGIES @ RIT </title>
+       <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript">
+       </script>
+       <script>
+        var ie7 =false;
+       </script>
+        <!--[if lt IE 8]>
+        <script>
+          var ie7 = true;
+          window.location="https://www.mozilla.org/en-US/firefox/new";
+        </script>
+        <![endif]-->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="assets/js/func.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/creative.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <script type="text/javascript" src="assets/js/jquery.magnific-popup.js"></script>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+       <!-- <script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
+        <link rel="stylesheet" href="assets/css/datatables.min.css">-->
+        <script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
+        <link rel="stylesheet" href="assets/css/datatables.min.css">
+        
+        
+        
+    </head>
+    <!--top page-->
+    <!--navigation tag to naviagte to a selected section-->    
+    <body id="top" onload="">
+    <header>    
+    <nav id="firstNav">
+        <div class="newContainer">
+            <img class="idbar" src="assets/images/background/rit-logo1.png" style="margin-left: 17%"><span style="color:black;font-size: 45px;vertical-align:bottom;margin-left:3%;font-family: inherit; text-shadow: none">Rochester Institute of Technology</span>
+            <ul id="ul1">
+                <li id="li1"><a class="slide-section" href="#top"><i class="fa fa-home" style="margin-left: 10px; margin-top: 6px; font-size:30px;align: bottom;color: #fff;"></i></a></li>
+                <li id="li2" style="margin-left: 15px;font-size: 16px"><a class="active slide-section" href="#top">Home</a>
+                <li id="li3"><a href="#about" class="slide-section">About</a>
+                <li id="li3"><a href="#degrees" class="slide-section">Our Degrees</a>
+                <li id="li3"><a href="#ourppl" class="slide-section">Our People and Research</a>
+                <li id="li3"><a href="#resource" class="slide-section">Resources</a>
+                <li id="li3"><a href="#apply" class="slide-section">Apply</a>   
+                <li id="li4" style="margin-left: 350px;font-size: 16px;margin-top:14px;"><input class="input-text" type="text" name="search" placeholder="searchRIT">&nbsp;&nbsp;<i class="icon fa fa-search"></i></li>   
+            </ul>
+        </div>
+    </nav>
+    </header>    
+        
+        <!--Displays RIT & IST names as well as menu bar-->
+        <div id="intrdiv">
+            <h2 class="intro" style="font-family: serif; font-size: 50px;text-align:center;">Information Sciences & Technologies @ RIT</h2>
+        </div>    
+        <div id="scrolldiv">
+            <p style="font-size:15px;">Click below or Scroll down to navigate</p><br/><br/>
+            <i class="fas fa-arrow-circle-down animated bounce infinite" style="align-self: auto; font-size: 30px; margin-left: 50%;animation-duration: 3s;animation-delay:.2s;"></i><br/><br/>
+            <a class="btn btn-success btn-xl js-scroll-trigger slide-section" href="#about" style="margin-left: 20%; background-color:#4CAF50;">Explore more</a>  
+        </div>
+        
+        
+        <!--About section-->
+        <section id="about">
+            <div class="container">
+                <h1 id="about-title" class="animated slideInLeft" style="animation-duration: 1s"></h1><br/>
+                <p id="about-description" class="animated slideInRight" style="animation-duration: 3s"></p>
+                <div class="animated slideInLeft" style="float: left;animation-duration: 5s">
+                    <i class="fas fa-quote-left" style="font-size: 25px"></i>&nbsp;&nbsp;
+                    <span id="about-quote"></span>&nbsp;&nbsp;
+                    <i class="fas fa-quote-right" style="font-size: 25px"></i>
+                </div><br/><br/><br/><br/>
+                <p id="about-quoteAuthor" class="animated slideInRight" style="animation-duration: 6s; text-align: center"></p>
+            </div>
+            </section>   
+            <div class="rainbow" style="top: 62.1%;"></div>    
+        
+        
+        <!--Undergraduate section-->
+        <section id="degrees">
+            <div class="container animated slideInDown">
+                <h1 style="text-align: center">Our Undergraduate Degrees</h1><br>
+                <div class="rowdegreeTypes" id="udiv">
+                 <div class="col1" href="#popupdiv1" style="text-shadow: none">
+                       <i class="fas fa-globe" style="font-size:55px; margin-top: 0%;margin-left: 40%; color:#fe2a70;"></i><br>
+                       <h4 id="wmcName" style="text-align: center;"></h4><br>
+                       <p id="wmc" style="text-align: center;"></p> 
+                       <i class="fas fa-plus-circle" style="margin-left: 45%;font-size:20px;color:#fe2a70"></i>
+                     <footer style="text-align: center;">Click to find out more</footer>
+                 </div>
+                 <div class="col2" href="#popupdiv2" style="text-shadow: none">
+                       <i class="fas fa-male" style="font-size:50px; margin-left: 40%; color:#f8b64d;"></i><br>
+                       <h4 id="hccName" style="text-align: center;"></h4><br>
+                       <p id="hcc" style="text-align: center;"></p>
+                       <i class="fas fa-plus-circle" style="margin-left: 45%;font-size:20px;color:#f8b64d"></i>
+                      <footer style="text-align: center;">Click to find out more</footer>
+                 </div>    
+                 <div class="col3" href="#popupdiv3" style="text-shadow: none">
+                       <i class="fas fa-laptop" style="font-size:50px; margin-left: 40%; color:#00a2ff;"></i><br>
+                       <h4 id="citName" style="text-align: center;"></h4><br>
+                       <p id="cit" style="text-align: center;"></p>  
+                       <i class="fas fa-plus-circle" style="margin-left: 45%;font-size:20px;color:#00a2ff"></i>
+                      <footer style="text-align: center;">Click to find out more</footer>
+                 </div> 
+                </div>    
+            </div>
+            <div id='popupdiv1' class="white-popup mfp-hide"></div>
+            <div id='popupdiv2' class="white-popup mfp-hide"></div>
+            <div id='popupdiv3' class="white-popup mfp-hide"></div>
+        </section>
+        <div class="rainbow"></div>
+        
+        
+        <!--Graduate Section-->
+        <section id="gradDegree">
+         <div class="content-container">
+           <h1 style="text-align: center">Our Graduate Degrees</h1><br><br>
+            <div class="rowgradDegree" id="gdiv">
+             <div class="gradcol2" href="#popupdiv4" style="text-shadow: none">
+                 <i class="far fa-keyboard" style="font-size:55px; margin-top: 0%;margin-left: 40%; color:#fe2a70;"></i><br>
+                 <h4 id="istName" style="text-align: center;"></h4><br>
+                 <p id="ist" style="text-align: center;"></p> 
+                 <i class="fas fa-plus-circle" style="margin-left: 45%;font-size:20px;color:#fe2a70"></i>
+                 <footer style="text-align: center;">Click to find out more</footer>
+             </div>
+             <div class="gradcol2" href="#popupdiv5" style="text-shadow: none">
+                 <i class="fas fa-sticky-note" style="font-size:50px; margin-left: 40%; color:#f8b64d;"></i><br>
+                 <h4 id="hciName" style="text-align: center;"></h4><br>
+                 <p id="hci" style="text-align: center;"></p> 
+                 <i class="fas fa-plus-circle" style="margin-left: 45%;font-size:20px;color:#f8b64d"></i>
+                 <footer style="text-align: center;">Click to find out more</footer>
+             </div>
+             <div class="gradcol3" href="#popupdiv6" style="text-shadow: none">
+                 <i class="fas fa-server" style="font-size:50px; margin-left: 40%; color:#00a2ff;"></i><br>
+                 <h4 id="nsaName" style="text-align: center;"></h4><br>
+                 <p id="nsa" style="text-align: center;"></p>
+                 <i class="fas fa-plus-circle" style="margin-left: 45%;font-size:20px;color:#00a2ff"></i>
+                 <footer style="text-align: center;">Click to find out more</footer>
+             </div>    
+            </div>    
+        <hr>
+        <div style="width=100%;text-align: center;">
+    	<h3>Our Graduate Advanced Certificates</h3>
+    	<div>
+    		<a href="http://www.rit.edu/programs/web-development-adv-cert" target="_blank">
+		    	<i class="fab fa-html5 fa-3x" style="color:#FFA44F;"></i>
+    	        <h6 class="degree-name" style="color:#fff;">Web Development Adv. Cert.</h6>
+    	    </a>
+        </div><br/>
+        <div>
+        	<a href="http://www.rit.edu/programs/networking-planning-and-design-adv-cert" target="_blank">
+		        <i class="fa fa-sitemap fa-3x" style="color:#7454CC;"></i>
+    		    <h6 class="degree-name" style="color:#fff;">Networking, Planning &amp; Design Adv. Cert.</h6>
+    		</a>
+    	</div>
+    </div>    
+    </div>  
+            <div id='popupdiv4' class="white-popup mfp-hide"></div>
+            <div id='popupdiv5' class="white-popup mfp-hide"></div>
+            <div id='popupdiv6' class="white-popup mfp-hide"></div>
+  </section>
+    <div class="rainbow"></div>
+    
+    <!--UnderGraduate Minor Section-->    
+    <section id="undergradMinor">
+       <div class="content-conatiner">
+           <div class="row" style="height: 20%;width: 100%;">
+           <h1 style="text-align: -webkit-center;margin-left: 33%;">Our Undergraduate Minors</h1>
+               <span style="font-size: 17px;margin-left: 43%;"> Expand your field of study</span>   
+           </div>
+           <div class="row" id="minor_row">             
+           </div> 
+       </div>
+    </section>
+     <div class="rainbow"></div>
+    
+    <section id="stats">
+        <div class="content-container">
+            <div class="acads" id="acads_row">
+            </div>
+        </div>
+    </section>
+    <div class="rainbow"></div> 
+    
+    <!--Map Section-->    
+     <section id="map" style="background-color: #000000">
+        <div class="content-container" style="text-align:center;text-shadow:none;">
+            <h1>Where Our Students Work</h1> 
+            <footer style="font-size: 14px;">Click a marker to learn more about the jobs at that location</footer><br/>
+            <div class="mapFrame" id="map_row">
+                <iframe width="1025" height="652" src="http://ist.rit.edu/api/map.php" style="background-color: #C0C0C0" allowfullscreen></iframe>
+            </div><br/><br/>
+            <h5>To view employement and coop history of our students,click below.</h5>
+            <div class="employment" id="employ_row">
+            </div>
+        </div>
+    </section>
+    <div class="rainbow"></div>   
+        
+    <!--People Section-->    
+    <section id="ourppl">
+        <div class="content-container" style="text-align:center;text-shadow:none;">
+            <h1 class="headerTitle"></h1>
+             <footer class="footerTitle" style="font-size: 14px;"></footer><br/>
+            <div class="button1">
+                <button class="pplButton selected_ppl" id="facultyButtonId" onclick="swapDiv('staff')" ><h4>FACULTY</h4></button>
+                <button class="pplButton" id="staffButtonId" onclick="swapDiv('faculty')"><h4>STAFF</h4></button>
+            </div>
+            <div class="ppl_row">
+                <div class="pplCol1" style="display:flex;width:100%;height:auto;flex-wrap: wrap;margin:2em;cursor: pointer"></div>
+            </div>
+            <div class="ppl_row">
+            <div class="pplCol2" style="display:flex;width:100%;height:auto;flex-wrap: wrap;margin:1em;cursor: pointer"></div>
+            </div>    
+        </div>
+    </section>    
+    <div class="rainbow"></div>  
+    
+    <!--Faculty research section by area of interest-->
+    <section id="facResArea">    
+        <div class="content-container" style="text-align:center;text-shadow:none;"> 
+            <h1>Faculty Research: Areas of Interest</h1>
+            <footer style="font-size: 14px;">Click the area you’re interested in to explore our faculty publications</footer><br/>
+            <div class="facRes1" id="facRes1_row">             
+            </div>        
+       </div>        
+    </section> 
+    <div class="rainbow"></div>  
+        
+    <!--Faculty lookup section by faculty-->    
+     <section id="facResLookup">    
+        <div class="content-container" style="text-align:center;text-shadow:none;"> 
+            <h1>Faculty Research: Lookup by Faculty</h1>
+            <footer style="font-size: 14px;">Click the faculty member to explore their recent publications</footer><br/>
+            <div class="facRes2" id="facRes2_row" style="display:flex;width:100%;height:auto;flex-wrap: wrap;cursor: pointer">      
+            </div>        
+       </div>        
+    </section> 
+    <div class="rainbow"></div> 
+    
+    <!--Resource section-->    
+    <section id="resource">
+       <div class="content-container" style="text-align:center;text-shadow:none;"> 
+           <div class="StudResource" id="studRes_row">
+             <h1 class="headerTitle1"></h1>
+             <footer class="footerTitle1" style="font-size: 14px;"></footer><br/><br/>
+               <div class="currStudRow">
+               <h2 class="headerCurr">Current Student</h2>
+               </div> 
+               <div class="prosStudRow"><br/>
+               <h2 class="headerCurr1">Prospective Students</h2><br/>
+            </div>
+               <div class="changePgmRow"><br/>
+               <h2 class="headerCurr2">Change of Program Students</h2><br/>
+            </div>
+           </div>   
+        </div>       
+    </section>  
+        
+        
+    <!--Apply Now footer section-->
+    <section id="apply">
+       <div class="content-container" style="text-align:center;text-shadow:none;"> 
+           <div class="FooterResource" id="footerRes_row">
+               <div class="social_row">
+                 <h1 class="headerTitle3" style="color:orange"></h1><hr/><br/>
+                 <footer class="footerTitle3" style="font-size: 20px;color: #517989"></footer><br/><br/>
+               </div>
+               <div class="socialIcon_row">                   
+               </div><br/>       
+               <div class="apply_row" style="background-color:darkorange;height:60px;">
+               </div><br/>   
+               <div class="bottom-row" style="display: flex;">
+               </div>
+           </div>   
+        </div>       
+    </section>          
+   </body>
+  </html>
